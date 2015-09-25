@@ -22,6 +22,12 @@ class Candidate(utils.PyOpenFecApiPaginatedClass, utils.SearchMixin):
         self.party = None
         self.party_full = None
         self.state = None
+        self.address_street_1 = None
+        self.address_street_2 = None
+        self.address_city = None
+        self.address_state = None
+        self.address_zip = None
+        self.load_date = None
         self._history = None
         self._committees = None
 
