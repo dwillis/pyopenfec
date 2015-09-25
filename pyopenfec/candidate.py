@@ -11,6 +11,7 @@ class Candidate(utils.PyOpenFecApiPaginatedClass, utils.SearchMixin):
         self.candidate_id = None
         self.candidate_status = None
         self.candidate_status_full = None
+        self.candidate_inactive = None
         self.cycles = None
         self.district = None
         self.election_years = None
